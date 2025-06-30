@@ -148,6 +148,6 @@ for(let i = 0; i < mixed.length; i++) {
       console.log('odd');
     }
   } else {
-    console.log('not number')
+    console.log('not number');
   }
 }
