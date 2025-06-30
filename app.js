@@ -96,11 +96,12 @@ console.log(calc); //配列に入ったか確認用
 
 
 function remainder(x, y) {
-  let divibe = x % y;
-  console.log(`${x} を ${y} で割った余りは ${divibe} です。`);
-  return divibe;
-};
-remainder(5, 3);
+  return x % y;
+}
+
+let x = 5;
+let y = 3;
+console.log(`${x} を ${y} で割った余りは ${remainder(x, y)} です。`);
 
 
 
@@ -147,6 +148,6 @@ for(let i = 0; i < mixed.length; i++) {
       console.log('odd');
     }
   } else {
-    console.log('not number');
+    console.log('not number')
   }
 }
